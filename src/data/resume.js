@@ -11,7 +11,7 @@ export const personal = {
 
 export const about = {
   summary:
-    "Full Stack Developer with 2.7 years of experience in the MERN stack, building scalable web applications. Proficient in React, Node.js, and TypeScript, with experience in Next.js, Remix, and backend optimization using Redis. Strong in API development and database design (PostgreSQL, MySQL), focused on delivering clean, efficient, and maintainable solutions.",
+  "Full Stack Developer with 2.7 years of experience in the MERN stack, building scalable web applications. Proficient in React, Node.js, and TypeScript, with experience in Next.js, Remix, and backend development including Python. Strong in API development and database design (PostgreSQL, MySQL), with experience in backend optimization using Redis, focused on delivering clean, efficient, and maintainable solutions.",
   education: {
     degree: "B.Sc. Computer Science",
     institution: "Sri Ramakrishna College of Arts & Science, Coimbatore",
@@ -26,7 +26,7 @@ export const about = {
 export const skills = {
   primary: [
     "React.js", "Next.js", "Node.js", "TypeScript",
-    "JavaScript (ES6+)", "PostgreSQL", "REST APIs",
+    "JavaScript (ES6+)", "PostgreSQL", "REST APIs","Python",
   ],
   librariesAndFrameworks: [
     "Remix", "Redux", "Express.js", "MongoDB", "MySQL",
@@ -61,7 +61,7 @@ export const experience = [
       "Developed and scaled the 'Grow App', an internal logistics platform, utilizing Next.js, React, PostgreSQL, and GraphQL to streamline operations.",
       "Led the migration of the application from Next.js to Effect.js, refactoring modules into a functional, type-safe architecture to enhance system scalability.",
       "Optimized SQL queries, successfully reducing query costs by 75%, which significantly improved overall performance and prevented application crashes.",
-      "Maintained and customized an internal real-time chat application using the Frappe framework to improve team collaboration.",
+      "Developed and customized an internal real-time chat application using the Frappe framework with Python backend, improving team collaboration and internal communication.",
       "Built reusable UI components with Tailwind CSS and improved system reliability using Effect-based error handling patterns.",
     ],
   },
@@ -92,6 +92,14 @@ export const projects = [
     description:
       "An internal logistics platform at FR8 Logistics built with Next.js and GraphQL. Led migration to a functional, type-safe architecture using Effect.js and achieved a 75% reduction in SQL query costs.",
     technologies: ["Next.js", "React", "PostgreSQL", "GraphQL", "Effect.js", "Tailwind CSS"],
+    liveUrl: null,
+    repoUrl: null,
+  },
+  {
+    name: "FR8 Raven Chat – Internal Communication App",
+    description:
+      "Customized and maintained an internal real-time chat application for FR8 Logistics using the Frappe Raven framework. Tailored the app to fit internal team workflows, improving collaboration and communication across departments. Backend powered by Python via the Frappe framework.",
+    technologies: ["Frappe", "Raven", "Python", "JavaScript", "React"],
     liveUrl: null,
     repoUrl: null,
   },
